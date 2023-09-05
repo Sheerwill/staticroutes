@@ -13,6 +13,4 @@ class Menu(models.model):
     Title = models.CharField(max_length=255)
     Price = models.FloatField(max_digits=10, decimal_places=2)
     Inventory = models.IntegerField(max_digits = 5)
-
-    fgfg = models.IntegerField(max_digits = 5)
     
